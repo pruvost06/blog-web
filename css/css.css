@@ -1,0 +1,82 @@
+body{
+
+margin:0;
+padding:0;
+font-size:'Roboto', sans-serif;
+}
+/*--------menue-background-------------------*/
+.menue{
+position: fixed;
+z-index: 1;
+background:	#12260ce5;
+padding: 35px;
+width: 100%;
+
+}
+
+
+.menue  nav{
+
+  text-align: center;
+  text-indent: 25%;
+}
+
+.menue  nav  ul li {
+
+list-style: none;
+display: inline;
+margin: 30px;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.menue a{
+
+  text-decoration: none ;
+  color: white;
+  cursor: pointer;
+
+}
+
+.menue  a:hover{
+top: 0;
+color: #d5b385;
+cursor: pointer;
+}
+
+.blog-active{
+  top: 0;
+color:#DEB887;
+}
+
+.logo{
+position: fixed;
+bottom:90%;
+right:1200px;
+cursor: pointer;
+
+
+}
+
+.sec1 .video{
+z-index: 1;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.10);
+
+}
+
+/*--------carte1-------------------*/
+
+.cart1{
+height:230px;
+width:200px ;
+background:#AE7749 ;
+position: absolute;
+bottom:63.70%;
+right:1280px;
+
+
+}
