@@ -71,12 +71,22 @@ background: rgba(0,0,0,0.10);
 /*--------carte1-------------------*/
 
 .cart1{
-height:230px;
-width:200px ;
+height:255px;
+width:215px ;
 background:#AE7749 ;
 position: absolute;
-bottom:63.70%;
-right:1280px;
+bottom:61%;
+right:1260px;
 
 
 }
+
+/*--------carte1--photo-----------------*/
+.profile{
+position: absolute;
+bottom: -50%;
+right: -125px;
+border-radius: 100px;
+}
+
+/*--------social-----------------*/
