@@ -82,7 +82,7 @@ right:1260px;
 }
 
 /*--------carte1--photo-----------------*/
-.profile{
+.cart1 .profile{
 position: absolute;
 bottom: -50%;
 right: -125px;
@@ -90,3 +90,21 @@ border-radius: 100px;
 }
 
 /*--------social-----------------*/
+
+.sec2 .social{
+
+height: 240px;
+width:65px;
+background:#AE7749;
+position: fixed;
+bottom: 30%;
+right: 1px;
+z-index: 1;
+
+}
+
+
+.facebook :hover{
+background: cornflowerblue;
+}
+
