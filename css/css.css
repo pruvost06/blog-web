@@ -1,3 +1,6 @@
+
+
+
 body{
 
 margin:0;
@@ -9,23 +12,32 @@ font-size:'Roboto', sans-serif;
 position: fixed;
 z-index: 1;
 background:	#12260ce5;
-padding: 35px;
+padding:35px;
 width: 100%;
 
 }
+
+.menue2{
+  position: fixed;
+  z-index: 1;
+  background:	#12260ce5;
+  padding: 53px;
+  width: 100%;
+  
+  }
 
 
 .menue  nav{
 
   text-align: center;
-  text-indent: 25%;
+  text-indent: 40%;
 }
 
 .menue  nav  ul li {
 
 list-style: none;
 display: inline;
-margin: 30px;
+margin: 20px;
 font-size: 15px;
 text-align: center;
 cursor: pointer;
@@ -54,7 +66,7 @@ color:#DEB887;
 .logo{
 position: fixed;
 bottom:90%;
-right:1200px;
+right:1100px;
 cursor: pointer;
 
 
@@ -76,7 +88,7 @@ width:215px ;
 background:#AE7749 ;
 position: absolute;
 bottom:61%;
-right:1260px;
+right:1160px;
 
 
 }
@@ -106,5 +118,52 @@ z-index: 1;
 
 .facebook :hover{
 background: cornflowerblue;
+}
+
+/*--------carte2-----------------*/
+.carte2   .sélectionnée{
+
+height:400px ;
+width:950px ;
+background: #12260ce5 ;
+position: absolute;
+bottom: -19%;
+right: 420px;
+
+
+/*--------carte3-----------------*/
+
+}
+
+
+.carte3   .sélectionné{
+
+  height:400px ;
+  width:950px ;
+  background: #12260ce5 ;
+  position: absolute;
+  bottom: -19.85%;
+  right: 420px;
+ 
+  
+}
+
+.image1{
+
+  position: absolute;
+  bottom: 8%;
+  right: 489px;
+font-family: 'Playfair Display', serif;
+}
+
+.sec2 .ligne{
+height: 1px;
+width: 370px;
+background: gray;
+position:absolute;
+bottom: -12%;
+right: 473px;
+ color: white;
+ font: size 17px;
 }
 
