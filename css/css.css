@@ -11,7 +11,7 @@ font-size:'Roboto', sans-serif;
 .menue{
 position: fixed;
 z-index: 1;
-background:	#12260ce5;
+background:	#343f34;
 padding:35px;
 width: 100%;
 
@@ -20,7 +20,7 @@ width: 100%;
 .menue2{
   position: fixed;
   z-index: 1;
-  background:	#12260ce5;
+  background:#06140c;
   padding: 53px;
   width: 100%;
   
@@ -125,10 +125,11 @@ background: cornflowerblue;
 
 height:400px ;
 width:950px ;
-background: #12260ce5 ;
+background: #303a30 ;
 position: absolute;
 bottom: -19%;
 right: 420px;
+
 
 
 /*--------carte3-----------------*/
@@ -140,7 +141,7 @@ right: 420px;
 
   height:400px ;
   width:950px ;
-  background: #12260ce5 ;
+  background: #343f34 ;
   position: absolute;
   bottom: -19.85%;
   right: 420px;
@@ -159,11 +160,155 @@ font-family: 'Playfair Display', serif;
 .sec2 .ligne{
 height: 1px;
 width: 370px;
-background: gray;
+background: 	gray;
 position:absolute;
 bottom: -12%;
 right: 473px;
  color: white;
  font: size 17px;
 }
+
+/*-----------deux--carte--gouche----------------------*/
+.section1 .gog{
+
+height: 315px;
+width: 295px;
+background: white;
+position: absolute;
+bottom:-65% ;
+right: 1075px;
+border:0.5px solid	#D8D8D8;
+
+}
+
+.section6 .gog5{
+
+  height: 315px;
+  width: 295px;
+  background: white;
+  position: absolute;
+  bottom:-101% ;
+  right: 1075px;
+  border:0.5px solid	#D8D8D8;
+  
+  }
+
+/*-----------deux--carte--milieu----------------------*/
+.section2 .gog1{
+
+  height: 315px;
+  width: 295px;
+  background: white;
+  position: absolute;
+  bottom:-65% ;
+  right: 750px;
+  border:0.5px solid	#D8D8D8;
+  
+  }
+
+  .section5 .gog4{
+
+    height: 315px;
+    width: 295px;
+    background: white;
+    position: absolute;
+    bottom:-101% ;
+    right: 750px;
+    border:0.5px solid	#D8D8D8;
+    
+    }
+
+
+/*-----------deux-carte-droite------------------------*/
+  .section3 .gog2{
+
+    height: 315px;
+    width: 295px;
+    background: white;
+    position: absolute;
+    bottom:-65% ;
+    right: 425px;
+    border:0.5px solid	#D8D8D8;
+    
+    }
+
+
+
+    .section4 .gog3{
+
+      height: 315px;
+      width: 295px;
+      background: white;
+      position: absolute;
+      bottom:-101% ;
+      right: 425px;
+      border:0.5px solid	#D8D8D8;
+      
+    }
+
+    h3{
+
+      position: absolute;
+      bottom: -265px;
+      right: 1150px;
+      font-size: 19px;
+      color: 	#484848;
+      }
+
+      .ligne1{
+         height: 1px;
+        width: 220px;
+        background:#B8B8B8;
+         position: absolute;
+         bottom: -61%;
+         right: 1113px;
+      }
+
+      .ligne2{
+        height: 1px;
+       width: 220px;
+       background:#B8B8B8;
+        position: relative;
+        bottom: -89%;
+        right: -40px;
+     }
+
+     .ligne3{
+      height: 1px;
+     width: 220px;
+     background:#B8B8B8;
+      position: relative;
+      bottom: -89%;
+      right: -40px;
+   }
+
+   .ligne4{
+    height: 1px;
+   width: 220px;
+   background:#B8B8B8;
+    position: relative;
+    bottom: -90%;
+    right: -35px;
+ }
+
+ .ligne5{
+  height: 1px;
+ width: 220px;
+ background:#B8B8B8;
+  position: relative;
+  bottom: -90%;
+  right: -30px;
+}
+
+.ligne6{
+  height: 1px;
+ width: 220px;
+ background:#B8B8B8;
+  position: relative;
+  bottom: -90%;
+  right: -28px;
+}
+
+
+
 
