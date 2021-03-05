@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
 
 body{
@@ -11,7 +11,7 @@ font-size:'Roboto', sans-serif;
 .menue{
 position: fixed;
 z-index: 1;
-background:	#343f34;
+background:#303a30;
 padding:35px;
 width: 100%;
 
@@ -20,7 +20,7 @@ width: 100%;
 .menue2{
   position: fixed;
   z-index: 1;
-  background:#06140c;
+  background:#303a30;
   padding: 53px;
   width: 100%;
   
@@ -34,7 +34,6 @@ width: 100%;
 }
 
 .menue  nav  ul li {
-
 list-style: none;
 display: inline;
 margin: 20px;
@@ -308,6 +307,145 @@ border:0.5px solid	#D8D8D8;
   bottom: -90%;
   right: -28px;
 }
+
+
+
+
+.footer{
+
+  height:410px;
+  width: 1900px;
+  background:#303a30;
+  position: absolute;
+  bottom:-160%;
+}
+
+.footer .logo2{
+position: absolute;
+right:1095px ;
+ bottom: 285px;
+}
+
+.footer  .maison-footer{
+
+  position: absolute;
+  right:950px;
+   bottom: 100px;
+
+}
+
+
+.footer .mail{
+ right:450px ;
+  bottom: 200px;
+  position: absolute;
+  padding: 13px;
+  border: 1px solid red;
+   width: 370px;
+}
+
+.footer .button{
+
+  position: absolute;
+  right:450px ;
+   bottom: 120px;
+   padding: 13px;
+   width: 135px;
+   background:#AE7749;
+   color: rgb(197, 194, 194);
+
+}
+
+.button:hover{
+
+background: white;
+
+}
+
+.footer .Copy{
+
+  position: absolute;
+  right:750px ;
+   bottom:35px;
+   color: rgb(197, 194, 194);
+}
+
+.footer  .abonnez{
+  right:500px ;
+  bottom: 285px;
+  position: absolute;
+  color: rgb(197, 194, 194);
+
+}
+
+/*-------------------------------------*/
+
+
+.heart-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.content{
+  padding: 13px 16px;
+  display: flex;
+  border: 2px solid #eae2e1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content.heart-active{
+  border-color: #f9b9c4;
+  background: #fbd0d8;
+}
+.heart{
+  position: absolute;
+  background: url("img.png") no-repeat;
+  background-position: left;
+  background-size: 2900%;
+  height: 90px;
+  width: 90px;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%,-50%);
+}
+.text{
+  font-size: 21px;
+  margin-left: 30px;
+  color: grey;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+.numb:before{
+  content: '12';
+  font-size: 21px;
+  margin-left: 7px;
+  font-weight: 600;
+  color: #9C9496;
+  font-family: sans-serif;
+}
+.numb.heart-active:before{
+  content: '13';
+  color: #000;
+}
+.text.heart-active{
+  color: #000;
+}
+.heart.heart-active{
+  animation: animate .8s steps(28) 1;
+  background-position: right;
+}
+@keyframes animate {
+  0%{
+    background-position: left;
+  }
+  100%{
+    background-position: right;
+  }
+}
+
+
 
 
 
