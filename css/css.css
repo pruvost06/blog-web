@@ -67,8 +67,6 @@ position: fixed;
 bottom:90%;
 right:1100px;
 cursor: pointer;
-
-
 }
 
 .sec1 .video{
@@ -309,7 +307,7 @@ border:0.5px solid	#D8D8D8;
 }
 
 
-
+/*-----------footer------------------------*/
 
 .footer{
 
@@ -378,7 +376,7 @@ background: white;
 
 }
 
-/*-------------------------------------*/
+/*------------like-------------------------*/
 
 .like__btn{
 

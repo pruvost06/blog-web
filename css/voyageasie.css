@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+
+body{
+
+margin:0;
+padding:0;
+font-size:'Roboto', sans-serif;
+}
+/*--------menue-background-------------------*/
+.menue{
+position: fixed;
+z-index: 1;
+background:#303a30;
+padding:35px;
+width: 100%;
+
+}
+
+.menue2{
+  position: fixed;
+  z-index: 1;
+  background:#303a30;
+  padding: 53px;
+  width: 100%;
+  
+  }
+
+
+.menue  nav{
+
+  text-align: center;
+  text-indent: 40%;
+}
+
+.menue  nav  ul li {
+list-style: none;
+display: inline;
+margin: 20px;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.menue a{
+
+  text-decoration: none ;
+  color: white;
+  cursor: pointer;
+
+}
+
+.menue  a:hover{
+top: 0;
+color: #d5b385;
+cursor: pointer;
+}
+
+.blog-active{
+  top: 0;
+color:#DEB887;
+}
+
+.logo{
+position: fixed;
+bottom:90%;
+right:1100px;
+cursor: pointer;
+}
+
+/*--------carte1-------------------*/
+
+.cart1{
+height:255px;
+width:215px ;
+background:#AE7749 ;
+position: absolute;
+bottom:61%;
+right:1160px;
+}
+
+
+
+/*--------social-----------------*/
+
+.sec2 .social{
+
+height: 240px;
+width:65px;
+background:#AE7749;
+position: fixed;
+bottom: 30%;
+right: 1px;
+z-index: 1;
+
+}
+
+
+.facebook :hover{
+background: cornflowerblue;
+}
+
+.coneted .btn{
+position: absolute;
+bottom: 76%;
+right: 700px;
+border:1px solid #AE7749;
+color:#AE7749;
+
+}
+
+.sec2 .cart{
+
+
+  position: absolute;
+  bottom: -70%;
+  right: 700px;
+  height:1350px ;
+  width: 730px;
+  border:1px solid gray ;
+  background:white;
+  border: 1px solid rgb(224,224,224);
+
+}
+
+.carte-coté .carte2{
+position: absolute;
+bottom: 9%;
+right:400px;
+height:600px;
+width: 260px;
+background: #AE7749;
+
+}
+
+.ligne1{
+
+width: 2px;
+height: 200px;
+background: brown;
+position:absolute;
+bottom: 45%;
+right:650px ;
+}
+
+.ligne10{
+height: 1px;
+width: 550px;
+background: rgb(163, 162, 162);
+position:absolute;
+bottom: 2%;
+right:100px ;
+}
+
+/*----------like-------------------*/
+.doding{
+  color:gray;
+  font-size: 1em;
+  cursor:pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 115px;
+}
+
+.doding{
+  color:gray;
+  font-size: 1em;
+  cursor:pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 115px;
+}
+
+
+/*-----------petite-gauche-carte---css-like-et-css-ligne------------------*/
+.section3 .gog2{
+
+  height: 315px;
+  width: 295px;
+  background: white;
+  position: absolute;
+  bottom:-110% ;
+  right: 1140px;
+  border:0.5px solid	#D8D8D8;
+  
+  }
+
+  .ligne3{
+    height: 1px;
+   width: 220px;
+   background:#B8B8B8;
+    position: relative;
+    bottom: -89%;
+    right: -40px;
+ }
+
+ .like{
+  color:gray;
+  font-size: 1em;
+  cursor:pointer;
+  position: absolute;
+  bottom: -110%;
+  right: 1155px;
+}
+
+
+/*-----------petite-carte-droite--css-like-et-css-ligne------------------*/
+
+.section4 .gog3{
+
+  height: 315px;
+  width: 295px;
+  background: white;
+  position: absolute;
+  bottom:-110%;
+  right: 690px;
+  border:0.5px solid	#D8D8D8;
+  
+}
+
+.aime{
+  color:gray;
+  font-size: 1em;
+  cursor:pointer;
+  position: absolute;
+  bottom: -110%;
+  right: 710px;
+}
